@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troubleshooting Guide 下载</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .download-card {
+            background: white;
+            padding: 50px 60px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 500px;
+        }
+        .download-card h1 {
+            color: #1a1a2e;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .download-card .sub {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 16px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 6px 20px rgba(0,123,255,0.35);
+        }
+        .download-btn:hover {
+            background: #0056b3;
+            transform: translateY(-3px);
+        }
+        .file-info {
+            color: #aaa;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        .file-info span {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="download-card">
+        <h1>📄 故障排查指南</h1>
+        <p class="sub">Troubleshooting Guide</p>
+        <a href="/Troubleshooting_Guide.pdf" download="Troubleshooting_Guide.pdf" class="download-btn">
+            ⬇️ 点击下载
+        </a>
+        <p class="file-info">📎 PDF 文件 ｜ <span>约 1.2 MB</span></p>
+    </div>
+
+</body>
+</html>
